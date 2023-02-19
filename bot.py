@@ -21,8 +21,8 @@ from discord.utils import get
 intents = discord.Intents(messages = True, guilds = True, reactions = True, members = True, presences = True)
 client = commands.Bot(command_prefix = '.', intents = intents)
 logging.basicConfig(level=logging.INFO)
-messages_stats_path = (r"C:\Users\Uzivatel\Desktop\kodezy\discordbot\messages_stats.txt")
-duels_stats_path = (r"C:\Users\Uzivatel\Desktop\kodezy\discordbot\duels_stats.txt")
+messages_stats_path = (r"\messages_stats.txt")
+duels_stats_path = (r"\duels_stats.txt")
 
 
 
@@ -1065,4 +1065,4 @@ async def mute_user(message, user, time):
     await unmute_user(message = message, user = user, time = time)
 
 
-client.run("ODAxMDkwMzMzOTAyNzY2MDgw.YAbngw.IEIqSYqh1CPgKcYr3PZD5k5ZuYw")
+client.run("token")
