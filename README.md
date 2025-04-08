@@ -37,7 +37,7 @@ syntax:
 .duel(mezera)strenght(mezera)armor(mezera)speed(mezera)user
 
 .art
-♥pošle obrázek, funguje jen v chanelech NSFW♥(random hentai pic)
+♥pošle obrázek, funguje jen v chanelech NSFW♥
 
 .image
 pošle fotečku toho čeho chcete
